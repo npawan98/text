@@ -1,6 +1,11 @@
 # OCR
 A simple react JS implementation integration of Tessearct OCR using Tesseract JS. User uploads the image (JPG/ PNG) amy image file, And Text is parsed from it.
 
+# Contributers
+- N PAWAN KUMAR (9917103018)
+- KUSHAGRA JAIN (9917103033)
+- HARSH VARSHNEY (9917103038)
+
 ## Available Scripts
 
 In the project directory, you can run:
