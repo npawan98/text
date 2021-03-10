@@ -1,0 +1,78 @@
+
+.scan{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    /* background: chartreuse; */
+}
+.scan__header{
+    /* background: chartreuse; */
+    display: flex;
+    /* flex: 0.1; */
+    margin:15px;
+    
+}
+.scan__header >h1{
+    font-size: 48px;
+}
+
+.scan__body{
+    position: relative;
+    flex: 1;
+    background: #C4C4C4;
+    margin-top: 0 !important;
+    margin: 15px;
+    height: 270px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.scan__body > img {
+
+   
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.scan__button{
+    /* flex: 0.1; */
+    background: #000000;
+    color: #ffffff;
+    width: 150px;
+    height: 55px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: relative;
+    text-decoration: none;
+    
+}
+.scan__button > a {
+    
+    margin-bottom: auto;
+
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: white;
+}
+.scan__button>a>h4{
+    font-size: 24px;
+}
